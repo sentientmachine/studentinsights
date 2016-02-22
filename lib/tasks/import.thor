@@ -23,7 +23,8 @@ class Import
     class_option :school,
       type: :array,
       aliases: "-s",
-      desc: "Scope by school local IDs; use ELEM to import all elementary schools"
+      desc: "Scope by school local IDs; use ELEM to import all elementary schools",
+      required: true
     class_option :first_time,
       type: :boolean,
       desc: "Fill up an empty database"
